@@ -1,3 +1,21 @@
+@media (max-width: 768px) {
+    .hero-content {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+    .hero-image {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .stats-bar {
+        flex-direction: column; /* Stack stats vertically */
+        align-items: center; /* Center align items */
+    }
+    .grid {
+        grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
+}
+
+
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
@@ -162,6 +180,7 @@ header {
 .stats-bar {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #004282;
     align-items: center;
     color: white;
@@ -230,7 +249,7 @@ nav a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2rem;
 }
 .section {
     background: white;
@@ -255,6 +274,7 @@ nav a {
     text-decoration: none;
     transition: background 0.3s;
     margin-bottom: 15px;
+    font-size: 1rem;
 }
 .button:hover {
     background-color: #004282;
@@ -323,4 +343,10 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
 }
