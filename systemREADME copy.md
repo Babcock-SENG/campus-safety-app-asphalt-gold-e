@@ -372,7 +372,7 @@ The Spiral Development Process Model is well-suited for the mobile campus safety
 
  # Use Case Diagram And Scenario Analysis
  ## Use Case Diagram
- ![Use Case Diagram](<image/Asphalt Gold-E useCase.drawio.png> "Use Case Diagram")
+ ![Use Case Diagram](</Asphalt Gold-E useCase.drawio.png> "Use Case Diagram")
  
 
  ## Scenario Analysis 
